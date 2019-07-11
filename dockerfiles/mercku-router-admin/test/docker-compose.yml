@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    volumes:
+      - ./volumes/mongodb/data/db:/data/db
+  redis:
+    image: redis
+    volumes:
+      - ./volumes/redis/data:/data
+  mercku-router-admin:
+    image: registry.cn-qingdao.aliyuncs.com/dbjtech/mercku-router-admin:test
+    depends_on:
+      - redis
+      - mongo 
+    environment:
+      MONGODB_HOST: mongo
+      REDIS_HOST: redis
+      MYSQL_HOST: db-001
+      MYSQL_USER: pabb
+      MYSQL_PASSWORD: pabb
+    ports:
+      - 18000:80
