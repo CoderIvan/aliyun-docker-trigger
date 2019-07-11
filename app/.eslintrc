@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "mocha": true,
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "rules": {
+    "object-curly-newline":  ["error", { "consistent": true }],
+    "semi": [2, "never"],
+    "camelcase": 0,
+    "indent": [2, "tab", { "SwitchCase": 1 }],
+    "no-tabs": 0
+  }
+}
