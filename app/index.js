@@ -2,7 +2,7 @@ const http = require('http')
 
 const DEPLOY_TIME = new Date()
 
-const json = require('../package.json') // eslint-disable-line import/no-unresolved
+const json = require('./package.json') // eslint-disable-line import/no-unresolved
 
 http.createServer((req, res) => {
 	res.end(`
