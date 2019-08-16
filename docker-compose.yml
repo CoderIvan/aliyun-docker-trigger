@@ -1,0 +1,7 @@
+version: '3'
+services:
+  808-gateway:
+    image: registry.cn-qingdao.aliyuncs.com/dbjtech/aliyun-docker-trigger
+    volumes:
+      - ./dockerfiles:/app/dockerfiles
+      - /var/run/docker.sock:/var/run/docker.sock

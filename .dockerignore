@@ -1,0 +1,9 @@
+node_modules
+dockerfiles
+Dockerfile
+package-lock.json
+.eslintrc
+.jsbeautifyrc
+.gitignore
+README.md
+docker-compose.yml
