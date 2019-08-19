@@ -1,5 +1,5 @@
 module.exports = {
-	port: 8000,
+	port: 80,
 	dockerfilesdir: './dockerfiles',
 	email: {
 		transport: {
