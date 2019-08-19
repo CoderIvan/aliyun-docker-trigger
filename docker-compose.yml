@@ -1,6 +1,6 @@
 version: '3'
 services:
-  808-gateway:
+  aliyun-docker-trigger:
     image: registry.cn-qingdao.aliyuncs.com/dbjtech/aliyun-docker-trigger
     volumes:
       - ./dockerfiles:/app/dockerfiles
