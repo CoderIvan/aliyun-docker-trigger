@@ -6,3 +6,5 @@ services:
       - ./dockerfiles:/app/dockerfiles
       - /var/run/docker.sock:/var/run/docker.sock
       - ~/.docker/config.json:/root/.docker/config.json
+    ports:
+      - 8000:80
