@@ -6,16 +6,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
   },
   "dependencies": {
-    "glob": "^7.1.4",
-    "koa": "^2.7.0",
-    "koa-body": "^4.1.0",
-    "koa-logger": "^3.2.0",
-    "koa-router": "^7.4.0",
-    "nodemailer": "^6.3.0"
+    "@z-ivan/console": "^1.0.0",
+    "glob": "^7.1.6",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "nodemailer": "^6.4.6"
   }
 }
