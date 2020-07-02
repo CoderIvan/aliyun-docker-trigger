@@ -1,5 +1,7 @@
 # 阿里云容器服务触发器
 
+![Node.js CI](https://github.com/CoderIvan/aliyun-docker-trigger/workflows/Node.js%20CI/badge.svg)
+
 ## 需要
 
 1. ubuntu

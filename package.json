@@ -1,6 +1,6 @@
 {
   "name": "aliyun-docker-trigger",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "author": "",
@@ -15,10 +15,12 @@
     "chalk": "^4.1.0",
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",
-    "koa-router": "^9.1.0",
+    "koa-router": "^9.0.1",
     "nodemailer": "^6.4.10"
   },
   "scripts": {
-    "lint": "eslint lib/** index.js"
+    "lint": "eslint .",
+    "ci": "npm run lint",
+    "test": "npm run lint"
   }
 }
