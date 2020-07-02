@@ -1,9 +1,6 @@
 node_modules
-dockerfiles
-Dockerfile
-package-lock.json
+test
 .eslintrc
-.jsbeautifyrc
 .gitignore
+Dockerfile
 README.md
-docker-compose.yml

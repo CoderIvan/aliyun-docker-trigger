@@ -1,5 +1,5 @@
 module.exports = {
-	port: 80,
+	port: 8080,
 	dockerfilesdir: './dockerfiles',
 	email: {
 		transport: {
@@ -7,12 +7,10 @@ module.exports = {
 			port: 465,
 			secure: true,
 			auth: {
-				user: '1169227925@qq.com',
-				pass: 'cidgdpqwvvbhbadg',
+				user: process.env.EMAIL_TRANSPORT_USER,
+				pass: process.env.EMAIL_TRANSPORT_PASS,
 			},
 		},
-		subscribers: [
-			'1169227925@qq.com',
-		],
+		subscribers: process.env.EMAIL_SUBSCRIBERS,
 	},
 }

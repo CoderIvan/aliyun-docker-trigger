@@ -14,6 +14,13 @@
   1. 挂载`~/.docker/config.json`至容器中的`/root/.docker/config.json`，使用容器拥有pull阿里镜像的权限
   1. 挂载`./dockerfiles`至容器中的`/app/dockerfiles`，告诉容器中的服务该维护哪些容器
 
+## 环境变量配置
+![image](https://user-images.githubusercontent.com/7960859/86327006-1ce22680-bc75-11ea-83da-a785fcfa48e2.png)
+
+EMAIL_TRANSPORT_USER: 发送邮件的邮箱名
+EMAIL_TRANSPORT_PASS: 发送邮件的邮箱密码
+EMAIL_SUBSCRIBERS: 默认订阅者(多个时，以`,`分隔)
+
 ## 配置阿里云的触发器
 
 #### 让镜像随代码变更自动构建
